@@ -19,6 +19,7 @@ Następnie poszczególne parametry złączyłem w kolumny i zapisałem jako ramk
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/df.JPG" />
 </p>
+
 Ilość wszystkich ofert pobranych ze strony [OtoMoto](https://www.otomoto.pl/) to:
 
 <p align="center">
