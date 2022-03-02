@@ -7,6 +7,7 @@ Firma Autox zleciła mi zaprojektowanie aplikacji do wyceny samochodów marki Vo
 ## Zbiór danych
 Dane dotyczące samochodów zostały pobrane ze strony [OtoMoto](https://www.otomoto.pl/).</br>
 Wszystkie oferty z 500 stron portalu zostało pobranych do tabelki danych wykorzystując Selenium Server.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/selenium.JPG" />
 </p>
@@ -16,6 +17,7 @@ Z linków generowanych w pętli od strony 1 do 500 pobrałem wartość oraz nazw
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/wektorlinkow.JPG" />
 </p>
 Następnie poszczególne parametry złączyłem w kolumny i zapisałem jako ramkę danych. W przypadku braku danego parametru  NA.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/df.JPG" />
 </p>
@@ -27,22 +29,27 @@ Ilość wszystkich ofert pobranych ze strony [OtoMoto](https://www.otomoto.pl/) 
 </p>
 
 Ze zbioru danych wybrałem następujące kolumny:
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/kolumny.JPG" />
 </p>
 Następnie wybrałem jedynie samochody marki Volkswagen:
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/VW.JPG" />
 </p>
 Zbiór wstępny wyglądał następująco:
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/df_1.JPG" />
 </p>
-W kolejnym kroku podzieliłem zbiory na testowy i treningowy
+W kolejnym kroku podzieliłem zbiory na testowy i treningowy.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/podzial_zbiorow.JPG" />
 </p>
 Wczytałem kolejno pakiety potrzebne do uczenia maszynowego.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/biblioteki.JPG" />
 </p>
@@ -50,6 +57,7 @@ Wczytałem kolejno pakiety potrzebne do uczenia maszynowego.
 
 
 Przykładowy trening lasu losowego:
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/trening_rf.JPG" />
 </p>
@@ -57,6 +65,7 @@ Przykładowy trening lasu losowego:
 
 ## Ocena modelu
 Oceniam model lasu losowego stosując moduł Caret.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/ocena.JPG" />
 </p>
@@ -64,20 +73,24 @@ Jak widać model jest świetnie dopasowany. Precyzja, F1 oraz recall wynoszą pr
 
 # Budowanie aplikacji w Shiny
 Posiadając już zoptymalizowany i działający model przystępuję do budowy aplikacji stosując moduł Shiny. Najpierw buduję aplikację korzystając z funkcji shinyServer. Dodaję również wytrenowany model lasu losowego.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs_c.JPG" />
 </p>
 Po wytrenowaniu modelu aplikacja ma wyświetlać wynik.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs_d.JPG" />
 </p>
 ## Interfejs
 Po skonstruowaniu aplikacji projektuję interfejs użytkownika. Do łatwego użytkowania dodaję suwaki dla parametrów rok, pojemność silnika, przebieg, moc silnika, oraz model pojazdu do wyceny. W zakładkach dodaję tabelkę danych do łatwiejszego wglądu. Na samym końcu dodaję przycisk do predykcji wyceny modelu.
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs.JPG" />
 </p>
 Uruchamiam aplikację, a następnie dla sprawdzam wycenę Volkswagena Passata z 2010 roku, o przebiegu 49000 km, pojemności silnika 2200 cm<sup>3</sup> i mocy silnika 200 KM.<br/>
 Aplikacja po uruchomieniu wygląda następująco:
+
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/wycena_passata.JPG" />
 </p>
