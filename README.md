@@ -82,7 +82,9 @@ Po wytrenowaniu modelu aplikacja ma wyświetlać wynik.
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs_d.JPG" />
 </p>
+
 ## Interfejs
+
 Po skonstruowaniu aplikacji projektuję interfejs użytkownika. Do łatwego użytkowania dodaję suwaki dla parametrów rok, pojemność silnika, przebieg, moc silnika, oraz model pojazdu do wyceny. W zakładkach dodaję tabelkę danych do łatwiejszego wglądu. Na samym końcu dodaję przycisk do predykcji wyceny modelu.
 
 <p align="center">
