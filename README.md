@@ -69,14 +69,14 @@ Posiadając już zoptymalizowany i działający model przystępuję do budowy ap
 </p>
 Po wytrenowaniu modelu aplikacja ma wyświetlać wynik.
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/ interfejs_d.JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs_d.JPG" />
 </p>
 ## Interfejs
 Po skonstruowaniu aplikacji projektuję interfejs użytkownika. Do łatwego użytkowania dodaję suwaki dla parametrów rok, pojemność silnika, przebieg, moc silnika, oraz model pojazdu do wyceny. W zakładkach dodaję tabelkę danych do łatwiejszego wglądu. Na samym końcu dodaję przycisk do predykcji wyceny modelu.
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/interfejs.JPG" />
 </p>
-Uruchamiam aplikację, a następnie dla sprawdzam wycenę Volkswagena Passata z 2010 roku, o przebiegu 49000 km, pojemności silnika 2200 cm3 i mocy silnika 200 KM.<br/>
+Uruchamiam aplikację, a następnie dla sprawdzam wycenę Volkswagena Passata z 2010 roku, o przebiegu 49000 km, pojemności silnika 2200 cm<sup>3</sup> i mocy silnika 200 KM.<br/>
 Aplikacja po uruchomieniu wygląda następująco:
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/wycena_passata.JPG" />
