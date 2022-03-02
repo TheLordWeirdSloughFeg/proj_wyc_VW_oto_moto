@@ -11,7 +11,7 @@ Wszystkie oferty z 500 stron portalu zostało pobranych do tabelki danych wykorz
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/selenium.JPG" />
 </p>
-Z linków generowanych w pętli od strony 1 do 500 pobrałem wartość oraz nazwę parametru z każdej oferty.
+Z linków generowanych w pętli od strony 1 do 500 pobrałem wartość oraz nazwę parametru z każdej oferty.<br/>
 
 <p align="center">
   <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/wektorlinkow.JPG" />
