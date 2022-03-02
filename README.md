@@ -23,7 +23,7 @@ Następnie poszczególne parametry złączyłem w kolumny i zapisałem jako ramk
 Ilość wszystkich ofert pobranych ze strony [OtoMoto](https://www.otomoto.pl/) to:
 
 <p align="center">
-  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/ilosc_ofert. JPG" />
+  <img src="https://github.com/TheLordWeirdSloughFeg/proj_wyc_VW_oto_moto/blob/main/obrazki/ilosc_ofert.JPG" />
 </p>
 
 Ze zbioru danych wybrałem następujące kolumny:
